@@ -1,0 +1,37 @@
+[
+  {
+    "id": "E1",
+    "name": "Vendor A",
+    "category": "piping",
+    "materials": ["SS316L", "CS"],
+    "attributes": { "price": 1000, "delivery": 45, "reliability": 0.9 }
+  },
+  {
+    "id": "E2",
+    "name": "Vendor B",
+    "category": "piping",
+    "materials": ["SS316L"],
+    "attributes": { "price": 950, "delivery": 60, "reliability": 0.85 }
+  },
+  {
+    "id": "E3",
+    "name": "PumpCo",
+    "category": "pumps",
+    "materials": ["centrifugal"],
+    "attributes": { "price": 50000, "delivery": 30, "reliability": 0.92 }
+  },
+  {
+    "id": "E4",
+    "name": "ValveTech",
+    "category": "valves",
+    "materials": ["control"],
+    "attributes": { "price": 8000, "delivery": 25, "reliability": 0.88 }
+  },
+  {
+    "id": "E5",
+    "name": "CableCorp",
+    "category": "electrical",
+    "materials": ["cable"],
+    "attributes": { "price": 200, "delivery": 20, "reliability": 0.93 }
+  }
+]

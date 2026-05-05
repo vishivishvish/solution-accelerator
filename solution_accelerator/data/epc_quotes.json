@@ -1,0 +1,26 @@
+[
+  {
+    "entity": "Vendor A",
+    "category": "piping",
+    "items": ["pipe", "elbow", "flange"],
+    "price_per_unit": 1000,
+    "delivery_days": 45,
+    "includes_testing": true
+  },
+  {
+    "entity": "PumpCo",
+    "category": "pumps",
+    "items": ["pump"],
+    "price_per_unit": 50000,
+    "delivery_days": 30,
+    "includes_testing": true
+  },
+  {
+    "entity": "ValveTech",
+    "category": "valves",
+    "items": ["valve"],
+    "price_per_unit": 8000,
+    "delivery_days": 25,
+    "includes_testing": true
+  }
+]

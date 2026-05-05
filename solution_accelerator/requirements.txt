@@ -1,0 +1,8 @@
+openai
+pandas
+fastapi
+uvicorn
+yfinance
+streamlit
+python-dotenv
+streamlit-elements

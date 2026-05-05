@@ -1,0 +1,21 @@
+Venv:
+At level of solution_accelerator
+-> venv\Scripts\Activate | then do cd.. to go to upper level
+
+Backend:
+At level of Solution Accelerator
+-> uvicorn solution_accelerator.api.app:app --reload
+
+Frontend:
+At level of Solution Accelerator
+-> cd frontend
+-> npm start
+
+Commit to GitHub:
+At level of Solution Accelerator:
+-> git add .
+-> git commit -m "Commit message"
+-> git push
+
+Older (when still Streamlit was still the frontend):
+At level of Solution Accelerator -> python -m streamlit run solution_accelerator\app\streamlit_app.py

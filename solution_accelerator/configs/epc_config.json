@@ -1,0 +1,14 @@
+{
+  "entity_name": "vendor",
+  "attributes": ["price", "delivery", "reliability"],
+
+  "weights": {
+    "price": 0.4,
+    "delivery": 0.3,
+    "reliability": 0.3
+  },
+
+  "filters": {
+    "category": "piping"
+  }
+}

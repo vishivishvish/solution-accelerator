@@ -1,0 +1,29 @@
+Price Insights
+
+Live connection
+
+Order Tracking
+
+Ship Tracking Portal possible - we can track details like where it is, how long it will take
+
+Maersk shipping, Mediterranean shipping, etc
+
+If we're able to show live connections to external databases, it will elevate the POC
+
+Presentation Format - in mobile?
+
+Indentor role - raise material request
+
+Procurement manager role - whole flow available
+
+---
+
+For Indentor - we need an intelligence system to narrow down for 3-4 levels of questions - if questions are still difficult contact technical manager
+
+For pipes - how much quantity, what dimensions, material, exact specifcations - then finally exit clause
+
+Change Top Entities to Top Vendors
+
+Show how Vendor Score was calculated - formula
+
+---

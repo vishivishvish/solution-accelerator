@@ -1,0 +1,27 @@
+{
+  "imo": "9544360",
+  "mmsi": "249373000",
+  "flag": "Malta",
+  "callSign": "9HA4221",
+  "vesselType": "Yacht, Others",
+  "length": 54,
+  "beam": 10,
+  "draught": 3.1,
+  "updatedAt": "2026-04-21T17:13:55.000Z",
+  "longitude": 23.66857,
+  "latitude": 37.93876,
+  "vesselName": "MIA RAMA",
+  "area": "Aegean Sea",
+  "speedKnots": 0.0,
+  "course": 183.5,
+  "status": "Moored",
+  "previousPort": {
+    "name": "PERAMA",
+    "time": "2025-12-23T11:26:00.000Z"
+  },
+  "currentPort": {
+    "name": "FALIRO",
+    "time": "2025-12-23T11:57:00.000Z"
+  },
+  "nextPort": null
+}
