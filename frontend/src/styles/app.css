@@ -19,6 +19,13 @@ body {
         sans-serif;
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
 /* LAYOUT */
 .app-container {
     display: flex;

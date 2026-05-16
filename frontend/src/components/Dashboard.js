@@ -14,7 +14,7 @@ export default function Dashboard({ result }) {
         <div className="content">
           <Stepper currentStep={1} />
 
-          <ParsedRequestCard />
+          <ParsedRequestCard result={result} />
         </div>
       </div>
     </div>

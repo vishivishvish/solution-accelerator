@@ -6,7 +6,20 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-export default function ParsedRequestCard() {
+export default function ParsedRequestCard({ result }) {
+  if (!result) return null;
+  const parsed = result?.parsed_request || {};
+
+  const category = parsed.category || "Pipes";
+
+  const material = parsed.material || "SS316";
+
+  const quantity = parsed.quantity || "100";
+
+  const dimension = parsed.dimension || "2 inch";
+
+  const spec = parsed.spec || "ASTM A312";
+
   return (
     <div className="card">
       {/* HEADER */}
@@ -31,7 +44,7 @@ export default function ParsedRequestCard() {
 
           <p className="label">Category</p>
 
-          <h3>Pipes</h3>
+          <h3>{category}</h3>
 
           <span className="chip">EPC</span>
         </div>
@@ -41,7 +54,7 @@ export default function ParsedRequestCard() {
 
           <p className="label">Material / Grade</p>
 
-          <h3>Stainless Steel 316 (SS316)</h3>
+          <h3>{material}</h3>
 
           <span className="chip">Standard: ASTM A312</span>
         </div>
@@ -51,7 +64,7 @@ export default function ParsedRequestCard() {
 
           <p className="label">Quantity</p>
 
-          <h3>100</h3>
+          <h3>{quantity}</h3>
 
           <span className="chip">Unit: NOS</span>
         </div>
@@ -66,17 +79,15 @@ export default function ParsedRequestCard() {
         </div>
 
         <div className="attributes-grid">
-          <span className="attribute-chip">Schedule: SCH 40</span>
+          <span className="attribute-chip">Dimension: {dimension}</span>
 
-          <span className="attribute-chip">Type: Seamless</span>
+          <span className="attribute-chip">Specification: {spec}</span>
 
-          <span className="attribute-chip">Ends: Beveled</span>
+          <span className="attribute-chip">AI Parsed Requirement</span>
 
-          <span className="attribute-chip">Length: 6m</span>
+          <span className="attribute-chip">Procurement Ready</span>
 
-          <span className="attribute-chip">Surface: Pickled</span>
-
-          <span className="attribute-chip">Application: General Use</span>
+          <span className="attribute-chip">Vendor Matching Enabled</span>
         </div>
       </div>
 
