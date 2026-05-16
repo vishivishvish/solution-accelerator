@@ -24,6 +24,13 @@ export default function RoleSelector({ setRole }) {
             <p>Analyze vendors, pricing, RFQs, and shipments</p>
           </div>
         </div>
+
+        <button
+          className="demo-btn"
+          onClick={() => setRole("Procurement Manager")}
+        >
+          View Demo Dashboard
+        </button>
       </div>
     </div>
   );

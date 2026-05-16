@@ -1,9 +1,22 @@
+import Sidebar from "./Sidebar";
+import Topbar from "./Topbar";
+import Stepper from "./Stepper";
+import ParsedRequestCard from "./ParsedRequestCard";
+
 export default function Dashboard({ result }) {
   return (
-    <div style={{ padding: "40px" }}>
-      <h1>Procurement Manager Dashboard</h1>
+    <div className="layout">
+      <Sidebar />
 
-      <pre>{JSON.stringify(result, null, 2)}</pre>
+      <div className="main">
+        <Topbar />
+
+        <div className="content">
+          <Stepper currentStep={1} />
+
+          <ParsedRequestCard />
+        </div>
+      </div>
     </div>
   );
 }
