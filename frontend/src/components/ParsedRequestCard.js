@@ -6,7 +6,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-export default function ParsedRequestCard({ result }) {
+export default function ParsedRequestCard({ result, nextStep }) {
   if (!result) return null;
   const parsed = result?.parsed_request || {};
 
@@ -118,7 +118,9 @@ export default function ParsedRequestCard({ result }) {
           <span className="dot"></span>
         </div>
 
-        <button className="card-primary-btn">Next: Vendors →</button>
+        <button className="card-primary-btn" onClick={nextStep}>
+          Next: Vendors →
+        </button>
       </div>
     </div>
   );
