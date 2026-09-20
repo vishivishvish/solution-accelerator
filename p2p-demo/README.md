@@ -2,6 +2,7 @@
 
 End-to-end **AI-powered Procurement Intelligence System** built as a reusable **Solution Accelerator**.
 
+
 <p align="center">
   <img src="solution_accelerator/assets/solution_accelerator.png" alt="Solution Accelerator" width="900"/>
 </p>
